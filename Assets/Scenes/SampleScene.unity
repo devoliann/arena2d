@@ -169,8 +169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _width: 16
   _height: 9
-  _grassTile: {fileID: 3904055075139184169, guid: def0780dce346684abd92907ceefbc3a, type: 3}
-  _mountainTile: {fileID: 93869505307271640, guid: 57baa85419cf4634a8ab16899a826d05, type: 3}
+  _tilePrefab: {fileID: 3904055075139184169, guid: def0780dce346684abd92907ceefbc3a, type: 3}
   _cam: {fileID: 519420032}
 --- !u!1 &519420028
 GameObject:
@@ -400,7 +399,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1548060229
+--- !u!1 &855269456
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -408,37 +407,36 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1548060231}
-  - component: {fileID: 1548060230}
+  - component: {fileID: 855269458}
+  - component: {fileID: 855269457}
   m_Layer: 0
-  m_Name: Game Manager
+  m_Name: MouseTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1548060230
+--- !u!114 &855269457
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1548060229}
+  m_GameObject: {fileID: 855269456}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77dd68fa991f36749bf19214d6459be1, type: 3}
+  m_Script: {fileID: 11500000, guid: 34a9977e03d5fb348b90cc330d72e73a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GameState: 0
---- !u!4 &1548060231
+--- !u!4 &855269458
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1548060229}
+  m_GameObject: {fileID: 855269456}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.63118, y: 2.5219097, z: -0.012981171}
+  m_LocalPosition: {x: 13.205375, y: -2.1613839, z: 0.3625487}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
